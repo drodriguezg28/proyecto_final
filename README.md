@@ -188,9 +188,9 @@ $dbh = new PDO($dsn, getenv('MYSQL_USER'), getenv('MYSQL_PASSWORD'));
 
 ---
 
-## API OpenWeatherMap
+## MeteoModel
 
-`MeteoModel.php` realiza las siguientes llamadas a la API:
+Realiza las siguientes llamadas a la API de OpenWeatherMap:
 
 | Método | Descripción |
 |---|---|
