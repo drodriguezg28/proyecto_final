@@ -4,7 +4,7 @@ services:
     ports: 
       - 80:80
     environment: 
-      - MYS_HOST=db
+      - MYSQL_HOST=db
       - MYSQL_NAME=${MYSQL_DATABASE}
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
