@@ -1,0 +1,37 @@
+:root {
+--negro: #353535;
+--verde-azulado: #3C6E71;
+--blanco: #FFFFFF;
+--blanco-claro: #D9D9D9;
+--azul-oscuro: #284B63;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: var(--negro);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0; 
+}
+
+.navbar-custom {
+    background-color: var(--azul-oscuro);
+    border-bottom: 3px solid var(--verde-azulado);
+}
+
+.nav-link {
+    color: var(--blanco-claro);
+}
+
+
+.btn-enviar {
+    background-color: var(--azul-oscuro);
+    border-color: var(--azul-oscuro);
+    color: white;
+}
+.btn-enviar:hover {
+    background-color: var(--verde-azulado);
+    border-color: var(--verde-azulado);
+    color: white;
+}
