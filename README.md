@@ -199,3 +199,9 @@ $dbh = new PDO($dsn, getenv('MYSQL_USER'), getenv('MYSQL_PASSWORD'));
 | `DatosClimaticos()` | Tiempo actual |
 | `DatosClimaticosHoras()` | Previsión próximas 24h |
 | `DatosClimaticosSemanales()` | Previsión semanal agrupada por día |
+
+---
+
+## URL de la web
+
+<http://52.55.7.232>
