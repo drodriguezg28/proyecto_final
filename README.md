@@ -201,7 +201,8 @@ Realiza las siguientes llamadas a la API de **OpenWeatherMap**:
 | `DatosClimaticosSemanales()` | Previsión semanal agrupada por día |
 
 ---
-
-## URL de la web
-
-<http://52.55.7.232>
+## Ejecución
+- Entrada en la maquina AWS
+- Ejecución del comando `cd /var/www/html`
+- Ejecución del comando `docker-compose up -d`
+- Entrada a la URL <http://52.55.7.232>
