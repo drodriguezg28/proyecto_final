@@ -3,6 +3,22 @@
 Este documento recoge la práctica de montaje de una aplicación meteorológica desplegada en una instancia AWS mediante Docker Compose, con un contenedor Apache+PHP y otro con MariaDB.
 
 ---
+## Indice
+
+1. [Descripción del Proyecto](#descripción-del-proyecto)
+2. [Estructura del Proyecto](#estructura-del-proyecto)
+        - [Funcionalidades principales](#funcionalidades-principales)
+4. [Estructura del Proyecto](#estructura-del-proyecto) 
+5. [Arquitectura MVC](#arquitectura-mvc)
+6. [Configuración con Docker Compose](#configuracion-con-docker-compose) 
+7. [Dockerfile del Servicio Web](#dockerfile-del-servicio-web)
+8. [Variables de Entorno](#variables-de-entorno) 
+9. [Base de Datos](#base-de-datos)
+10. [MeteoController](#meteocontroller) 
+11. [MeteoModel](#meteomodel)
+12. [Ejecución](#ejecucion)
+
+---
 
 ## Descripción del Proyecto
 
