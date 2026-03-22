@@ -87,6 +87,7 @@ Se usan dos servicios definido en `docker-compose.yaml`:
 services: 
   web:
     build: ./apache
+    restart: always
     ports: 
       - 80:80
     environment: 
@@ -102,6 +103,7 @@ services:
 
   db:
     image: mariadb:latest
+    restart: always
     ports:
       - 3306:3306
     environment: 
@@ -218,7 +220,4 @@ Realiza las siguientes llamadas a la API de **OpenWeatherMap**:
 
 ---
 ## Ejecución
-- Entrada en la maquina AWS
-- Ejecución del comando `cd /var/www/html`
-- Ejecución del comando `docker-compose up -d`
 - Entrada a la URL <http://52.55.7.232>
